@@ -13,7 +13,7 @@ if ping -c 1 -W 1 google.com > /dev/null 2>&1; then
     prefix=""
     echo "检测到您的网络可以连接到 Google，不使用镜像下载"
 else
-    prefix="https://gh.gylcyh.us.kg/"
+    prefix="https://gh.cyhgyl.filegear-sg.me/"
     echo "检测到您的网络无法连接到 Google，使用镜像下载"
 fi
 
